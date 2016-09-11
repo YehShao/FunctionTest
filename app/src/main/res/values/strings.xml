@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FunctionTest</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="sex">Sex</string>
+    <string name="save">SAVE</string>
+    <string name="clear">CLEAR</string>
+    <string name="read">READ</string>
+    <string name="save_notify">"已儲存"</string>
+    <string name="clear_notify">"已清除"</string>
+    <string name="read_notify">"已讀取"</string>
+</resources>
