@@ -1,12 +1,23 @@
 <resources>
+    <!-- Manifest -->
     <string name="app_name">FunctionTest</string>
-    <string name="name">Name</string>
-    <string name="phone">Phone</string>
-    <string name="sex">Sex</string>
-    <string name="save">SAVE</string>
-    <string name="clear">CLEAR</string>
-    <string name="read">READ</string>
-    <string name="save_notify">"已儲存"</string>
-    <string name="clear_notify">"已清除"</string>
-    <string name="read_notify">"已讀取"</string>
+    
+    <!-- Login -->
+    <string name="login_title_text">Function Test</string>
+    <string name="login_account_hint">Account</string>
+    <string name="login_password_hint">Password</string>
+    <string name="button_login_text">LOGIN</string>
+    <string name="button_register_text">REGISTER</string>
+
+    <!-- Register -->
+    <string name="register_title_text">Register</string>
+    <string name="register_name_hint">Name</string>
+    <string name="register_account_hint">Account</string>
+    <string name="register_password_hint">Password</string>
+    <string name="button_enter_text">ENTER</string>
+    <string name="button_back_text">BACK</string>
+
+    <!-- Main -->
+    <string name="main_title_text">Fragment</string>
+    <string name="button_logout_text">LOGOUT</string>
 </resources>

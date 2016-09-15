@@ -1,8 +1,27 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="title_text_size">16sp</dimen>
-    <dimen name="button_margin_top">20dp</dimen>
-    <dimen name="button_text_size">18sp</dimen>
+    <!-- Style -->
+    <dimen name="button_mod_1_text_size">18sp</dimen>
+    <dimen name="edit_text_mod_1_text_size">18sp</dimen>
+
+    <!-- Login & Register & Main -->
+    <dimen name="title_margin_top">120dp</dimen>
+    <dimen name="title_text_size">35sp</dimen>
+    <dimen name="edit_text_width">200dp</dimen>
+    <dimen name="edit_text_margin_top">120dp</dimen>
+    <dimen name="edit_text_password_margin_top">10dp</dimen>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+    <dimen name="button_margin_top">50dp</dimen>
+    <dimen name="button_register_margin_top">10dp</dimen>
+
+    <!-- Login -->
+
+    <!-- Register -->
+
+    <!-- Main -->
+    <dimen name="main_button_margin_top">3dp</dimen>
+    <dimen name="main_button_margin_right">3dp</dimen>
+    <dimen name="main_title_margin_top">3dp</dimen>
+    <dimen name="main_title_margin_left">3dp</dimen>
+    <dimen name="main_title_text_size">18sp</dimen>
 </resources>
