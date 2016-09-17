@@ -33,7 +33,7 @@
         android:supportsRtl="true">
 
         <activity
-            android:name=".Login"
+            android:name=".EntrySelector"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -41,7 +41,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".Main"
             android:screenOrientation="portrait"

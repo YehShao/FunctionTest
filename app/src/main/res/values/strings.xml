@@ -14,7 +14,8 @@
     <string name="register_name_hint">Name</string>
     <string name="register_account_hint">Account</string>
     <string name="register_password_hint">Password</string>
-    <string name="button_enter_text">ENTER</string>
+    <string name="register_confirm_password_hint">Confirm Password</string>
+    <string name="button_sign_up_text">SIGN UP</string>
     <string name="button_back_text">BACK</string>
 
     <!-- Main -->

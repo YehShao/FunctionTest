@@ -47,6 +47,15 @@
             android:hint="@string/register_password_hint"
             android:inputType="textPassword"
             style="@style/edit_text_mod_1" />
+
+        <EditText
+            android:id="@+id/edit_text_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_text_password_margin_top"
+            android:hint="@string/register_confirm_password_hint"
+            android:inputType="textPassword"
+            style="@style/edit_text_mod_1" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,7 +68,7 @@
             android:id="@+id/button_enter"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"
-            android:text="@string/button_enter_text"
+            android:text="@string/button_sign_up_text"
             style="@style/button_mod_1" />
 
         <Button
