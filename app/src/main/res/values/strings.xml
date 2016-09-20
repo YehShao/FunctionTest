@@ -3,22 +3,30 @@
     <string name="app_name">FunctionTest</string>
     
     <!-- Login -->
-    <string name="login_title_text">Function Test</string>
-    <string name="login_account_hint">Account</string>
-    <string name="login_password_hint">Password</string>
-    <string name="button_login_text">LOGIN</string>
-    <string name="button_register_text">REGISTER</string>
+    <string name="login_title_text">"Function Test"</string>
+    <string name="login_account_hint">"Account"</string>
+    <string name="login_password_hint">"Password"</string>
+    <string name="button_login_text">"LOGIN"</string>
+    <string name="button_register_text">"REGISTER"</string>
+    <string name="toast_msg_login_field_empty">"Please enter your Account and Password!"</string>
+    <string name="toast_msg_login_success">"Welcome! %1$s"</string>
+    <string name="toast_msg_login_fail">"Account or Password does not correct!"</string>
 
     <!-- Register -->
-    <string name="register_title_text">Register</string>
-    <string name="register_name_hint">Name</string>
-    <string name="register_account_hint">Account</string>
-    <string name="register_password_hint">Password</string>
-    <string name="register_confirm_password_hint">Confirm Password</string>
-    <string name="button_sign_up_text">SIGN UP</string>
-    <string name="button_back_text">BACK</string>
+    <string name="register_title_text">"Register"</string>
+    <string name="register_name_hint">"Name"</string>
+    <string name="register_account_hint">"Account"</string>
+    <string name="register_password_hint">"Password"</string>
+    <string name="register_confirm_password_hint">"Confirm Password"</string>
+    <string name="button_sign_up_text">"SIGN UP"</string>
+    <string name="button_back_text">"BACK"</string>
+    <string name="toast_msg_register_field_empty">"Please fill in all fields!"</string>
+    <string name="toast_msg_field_min_limit">"Account and Password at least need %1$d character!"</string>
+    <string name="toast_msg_field_account_exist">"Account %1$s already exist!"</string>
+    <string name="toast_msg_password_not_match">"Password does not match!"</string>
+    <string name="toast_msg_account_created">"Account created successfully!"</string>
 
     <!-- Main -->
-    <string name="main_title_text">Fragment</string>
-    <string name="button_logout_text">LOGOUT</string>
+    <string name="main_title_text">"Fragment"</string>
+    <string name="button_logout_text">"LOGOUT"</string>
 </resources>

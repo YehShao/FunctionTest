@@ -7,6 +7,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.function.bruce.functiontest.utils.Log;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
+    private static final String TAG = DataBaseHelper.class.getSimpleName();
+
+    public static final String DATABASE_NAME = "function_test.db";
+    public static final int DATABASE_VERSION = 1;
+
     public DataBaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
@@ -14,6 +19,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     // Called when no database exists in disk and the helper class needs to create a new one.
     @Override
     public void onCreate(SQLiteDatabase db) {
+        Log.i(TAG, "onCreate");
+
         db.execSQL(UserAccountTable.DATABASE_CREATE);
     }
 
@@ -22,7 +29,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Log the version upgrade.
-        Log.w("TaskDBAdapter", "Upgrading from version " + oldVersion + " to " + newVersion +
+        Log.w(TAG, "Upgrading from version " + oldVersion + " to " + newVersion +
                 ", which will destroy all old data");
 
         // Upgrade the existing database to conform to the new version. Multiple previous versions can be

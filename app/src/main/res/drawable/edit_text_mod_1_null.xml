@@ -15,5 +15,5 @@
     <!-- stroke设置描边 -->
     <stroke
         android:width="3dp"
-        android:color="#FF2F90BD" />
+        android:color="#FFBD2F2F"/>
 </shape>

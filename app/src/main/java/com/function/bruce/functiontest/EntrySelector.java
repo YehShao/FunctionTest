@@ -27,8 +27,10 @@ public class EntrySelector extends Activity {
     private boolean checkIsLogin() {
         SharedPreferences sharedPreferences = getSharedPreferences(FunctionTestUtils.CHECK_IS_LOGIN_SP_KEY,
                 Context.MODE_PRIVATE);
+        Boolean isLogin = sharedPreferences.getBoolean(FunctionTestUtils.IS_LOGIN , false);
+        Log.i(TAG, "isLogin = " + isLogin);
 
-        return sharedPreferences.getBoolean(FunctionTestUtils.IS_LOGIN , false);
+        return isLogin;
     }
 
     private void goToActivity(Class<?> cls) {
